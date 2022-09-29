@@ -22,10 +22,10 @@ const App = () => {
             <Route path='products'>
               <Route index element={<List />} />
               <Route path=':productId' element={<Single />} />
-              <Route
+              {/* <Route
                 path='new'
                 element={<New inputs={productInputs} title='Add New Product' />}
-              />
+              /> */}
             </Route>
           </Route>
         </Routes>
